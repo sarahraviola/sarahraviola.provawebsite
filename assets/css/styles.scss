@@ -1,8 +1,9 @@
----
----
-@import "{{ site.theme }}";
-.main-content {
-  h1 {
-   color: #ff0000;
- }
-}
+// Site base
+@import "base/normalize";
+@import "base/config";
+@import "base/mixins";
+@import "base/typography";
+@import "base/global";
+
+// Import Layouts
+@import "layouts/half";
